@@ -9,8 +9,8 @@
             "email": "mahmoud@birdsol.com"
         }
     ],
-    "minimum-stability": "beta",
-    "version": "1.0.0-beta",
+    "minimum-stability": "stable",
+    "version": "1.0.0",
     "require": {
         "illuminate/support": "^5.2",
         "illuminate/http": "^5.2"
