@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="957585f6-5ede-4adb-a21c-82cabab89d9e" name="Default" comment="" />
+    <list default="true" id="957585f6-5ede-4adb-a21c-82cabab89d9e" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cors.php" afterPath="$PROJECT_DIR$/config/cors.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CORSMiddleware.php" afterPath="$PROJECT_DIR$/src/CORSMiddleware.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CORSServiceProvider.php" afterPath="$PROJECT_DIR$/src/CORSServiceProvider.php" />
+    </list>
     <ignored path="cors-laravel.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -24,14 +29,19 @@
       <file leaf-file-name="CORSServiceProvider.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/CORSServiceProvider.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-              <folding />
+            <state relative-caret-position="832">
+              <caret line="32" column="60" selection-start-line="32" selection-start-column="60" selection-end-line="32" selection-end-column="60" />
+              <folding>
+                <element signature="e#33#72#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -41,10 +51,12 @@
         <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/phpunit.xml" />
         <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/src/CORSMiddleware.php" />
         <option value="$PROJECT_DIR$/src/AppServiceProvider.php" />
         <option value="$PROJECT_DIR$/src/CorsServiceProvider.php" />
+        <option value="$PROJECT_DIR$/src/CORSMiddleware.php" />
+        <option value="$PROJECT_DIR$/src/CORSHelper.php" />
         <option value="$PROJECT_DIR$/src/CORSServiceProvider.php" />
+        <option value="$PROJECT_DIR$/config/cors.php" />
       </list>
     </option>
   </component>
@@ -55,11 +67,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="642" />
-    <option name="width" value="638" />
+    <option name="width" value="1280" />
     <option name="height" value="800" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -86,7 +97,52 @@
     <panes>
       <pane id="Scope" />
       <pane id="ProjectPane">
-        <subPane />
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cors-laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cors-laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cors-laravel" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cors-laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cors-laravel" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cors-laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cors-laravel" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
       </pane>
       <pane id="Scratches" />
     </panes>
@@ -99,6 +155,35 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="FullScreen" value="true" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/config" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -110,19 +195,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1469468554993</updated>
-      <workItem from="1469468556748" duration="704000" />
+      <workItem from="1469468556748" duration="2349000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="704000" />
+    <option name="totallyTimeSpent" value="2349000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="642" y="0" width="638" height="800" extended-state="0" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5015674" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15703125" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -206,52 +291,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cors.php">
+    <entry file="file://$PROJECT_DIR$/src/CORSMiddleware.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="-32">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
           <folding>
-            <marker date="1469119518000" expanded="true" signature="8:199" placeholder="..." />
-            <marker date="1469119518000" expanded="true" signature="210:1219" placeholder="..." />
-            <marker date="1469119518000" expanded="true" signature="217:627" placeholder="..." />
-            <marker date="1469119518000" expanded="true" signature="649:769" placeholder="..." />
-            <marker date="1469119518000" expanded="true" signature="911:1015" placeholder="..." />
-            <marker date="1469119518000" expanded="true" signature="1074:1216" placeholder="..." />
+            <marker date="1469470743000" expanded="true" signature="50:101" placeholder="..." />
+            <marker date="1469470743000" expanded="true" signature="123:424" placeholder="{...}" />
+            <marker date="1469470743000" expanded="true" signature="133:283" placeholder=" Handle an incoming request. ..." />
+            <marker date="1469470743000" expanded="true" signature="337:422" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CORSMiddleware.php">
+    <entry file="file://$PROJECT_DIR$/src/CORSHelper.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1664">
-          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+        <state relative-caret-position="1872">
+          <caret line="72" column="34" selection-start-line="72" selection-start-column="34" selection-end-line="72" selection-end-column="34" />
           <folding>
-            <marker date="1469469118000" expanded="true" signature="80:1729" placeholder="{...}" />
-            <marker date="1469469118000" expanded="true" signature="90:240" placeholder=" Handle an incoming request. ..." />
-            <marker date="1469469118000" expanded="true" signature="294:542" placeholder="{...}" />
-            <marker date="1469469118000" expanded="true" signature="457:502" placeholder="..." />
-            <marker date="1469469118000" expanded="true" signature="551:592" placeholder=" Set access control origins. ..." />
-            <marker date="1469469118000" expanded="true" signature="625:957" placeholder="{...}" />
-            <marker date="1469469118000" expanded="true" signature="679:950" placeholder="..." />
-            <marker date="1469469118000" expanded="true" signature="737:940" placeholder="..." />
-            <marker date="1469469118000" expanded="true" signature="795:926" placeholder="..." />
-            <marker date="1469469118000" expanded="true" signature="966:1010" placeholder=" Set access control credentials ..." />
-            <marker date="1469469118000" expanded="true" signature="1047:1142" placeholder="{...}" />
-            <marker date="1469469118000" expanded="true" signature="1151:1191" placeholder=" set access control methods ..." />
-            <marker date="1469469118000" expanded="true" signature="1224:1434" placeholder="{...}" />
-            <marker date="1469469118000" expanded="true" signature="1307:1366" placeholder="..." />
-            <marker date="1469469118000" expanded="true" signature="1443:1484" placeholder=" Set access control headers. ..." />
-            <marker date="1469469118000" expanded="true" signature="1517:1727" placeholder="{...}" />
-            <marker date="1469469118000" expanded="true" signature="1600:1659" placeholder="..." />
+            <marker date="1469470964000" expanded="true" signature="62:1880" placeholder="{...}" />
+            <marker date="1469470964000" expanded="true" signature="72:138" placeholder=" Perform the Cors checks. ..." />
+            <marker date="1469470964000" expanded="true" signature="177:228" placeholder="{...}" />
+            <marker date="1469470964000" expanded="true" signature="237:273" placeholder=" Handle a cors request. ..." />
+            <marker date="1469470964000" expanded="true" signature="304:424" placeholder="{...}" />
+            <marker date="1469470964000" expanded="true" signature="433:474" placeholder=" Set access control origins. ..." />
+            <marker date="1469470964000" expanded="true" signature="507:1108" placeholder="{...}" />
+            <marker date="1469470964000" expanded="true" signature="561:977" placeholder="..." />
+            <marker date="1469470964000" expanded="true" signature="619:822" placeholder="..." />
+            <marker date="1469470964000" expanded="true" signature="677:808" placeholder="..." />
+            <marker date="1469470964000" expanded="true" signature="871:967" placeholder="..." />
+            <marker date="1469470964000" expanded="true" signature="1068:1101" placeholder="..." />
+            <marker date="1469470964000" expanded="true" signature="1117:1161" placeholder=" Set access control credentials ..." />
+            <marker date="1469470964000" expanded="true" signature="1198:1293" placeholder="{...}" />
+            <marker date="1469470964000" expanded="true" signature="1302:1342" placeholder=" set access control methods ..." />
+            <marker date="1469470964000" expanded="true" signature="1375:1585" placeholder="{...}" />
+            <marker date="1469470964000" expanded="true" signature="1458:1517" placeholder="..." />
+            <marker date="1469470964000" expanded="true" signature="1594:1635" placeholder=" Set access control headers. ..." />
+            <marker date="1469470964000" expanded="true" signature="1668:1878" placeholder="{...}" />
+            <marker date="1469470964000" expanded="true" signature="1751:1810" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/cors.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="49" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
+          <folding>
+            <marker date="1469471182000" expanded="true" signature="8:213" placeholder="..." />
+            <marker date="1469471182000" expanded="true" signature="224:1790" placeholder="..." />
+            <marker date="1469471182000" expanded="true" signature="231:726" placeholder="..." />
+            <marker date="1469471182000" expanded="true" signature="748:754" placeholder="..." />
+            <marker date="1469471182000" expanded="true" signature="764:1040" placeholder="..." />
+            <marker date="1469471182000" expanded="true" signature="1077:1283" placeholder="..." />
+            <marker date="1469471182000" expanded="true" signature="1304:1408" placeholder="..." />
+            <marker date="1469471182000" expanded="true" signature="1418:1624" placeholder="..." />
+            <marker date="1469471182000" expanded="true" signature="1645:1787" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CORSServiceProvider.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-          <folding />
+        <state relative-caret-position="832">
+          <caret line="32" column="60" selection-start-line="32" selection-start-column="60" selection-end-line="32" selection-end-column="60" />
+          <folding>
+            <element signature="e#33#72#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

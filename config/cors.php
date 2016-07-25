@@ -1,7 +1,7 @@
 <?php
 /*
 |--------------------------------------------------------------------------
-| CORS Cross Origin Request Service
+| CORS, Cross Origin Resource Sharing Config File
 |--------------------------------------------------------------------------
 |
 */
@@ -15,18 +15,30 @@ return [
     | you can add as many origins as your application requires to this
     | array each request will be validated through the middleware.
     |
+    | To make all origins allowed just remove the array syntax
+    | and add *
+    |
     */
 
     'origins' => [
-        'http://themommyclub.dev',
-        'http://admin.themommyclub.dev',
-        'http://app.themommyclub.dev',
+
     ],
 
-    // Access control allow credentials true or false.
+    /*
+    |--------------------------------------------------------------------------
+    | Access control allow credentials
+    |--------------------------------------------------------------------------
+    |
+    | The credentials variable can be either true or false.
+    |
+    */
     'credentials' => true,
 
-    // Access control allow methods.
+    /*
+    |--------------------------------------------------------------------------
+    | Allowed methods for a CORS request
+    |--------------------------------------------------------------------------
+    */
     'methods' => [
         'GET',
         'POST',
@@ -36,7 +48,11 @@ return [
         'OPTIONS'
     ],
 
-    // Access control allow headers.
+    /*
+    |--------------------------------------------------------------------------
+    | Allowed headers for a CORS request
+    |--------------------------------------------------------------------------
+    */
     'headers' => [
         'Origin',
         'Content-Type',
