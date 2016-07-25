@@ -1,6 +1,7 @@
 # Cross-origin resource sharing for laravel applications
 
-This package give's a middleware to allow for resource sharing across different origins useful for api development with laravel
+This package give's a middleware to allow for resource sharing across different origins useful 
+for api development with laravel. *This package is still in development more options will be added*
 
 ### Usage
 
