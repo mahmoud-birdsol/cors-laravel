@@ -1,0 +1,22 @@
+{
+    "name": "mahmoud-birdsol/cors-laravel",
+    "description": "Laravel Cross origin resource sharing package",
+    "license": "MIT",
+    "keywords": ["laravel", "cors", "cross origin resource sharing", "api"],
+    "authors": [
+        {
+            "name": "Mahmoud El-Mokhtar",
+            "email": "mahmoud@birdsol.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "illuminate/support": "^5.2",
+        "illuminate/http": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "MahmoudBirdsol\\CORSLaravel\\": "src/"
+        }
+    }
+}
