@@ -1,5 +1,109 @@
-TODO
+# Cross-origin resource sharing for laravel applications
 
-composer require mahmoud-birdsol/cors-laravel:dev-master
+This package give's a middleware to allow for resource sharing across different origins useful for api development with laravel
 
+### Usage
+
+Require the package through composer
+
+```
+composer require mahmoud-birdsol/cors-laravel
+```
+
+Add the service provider to the app service providers in `config/app.php`
+
+```
+/*
+* Other Service Providers...
+*/
+MahmoudBirdsol\CORSLaravel\CORSServiceProvider::class,
+```
+
+Publish the config file (cors.php) 
+
+```
 php artisan vendor:publish --provider="MahmoudBirdsol\CORSLaravel\CORSServiceProvider"
+```
+
+Add the middleware to the api route group
+
+```
+'api' => [
+    'throttle:60,1',
+    MahmoudBirdsol\CORSLaravel\CORSMiddleware::class,
+],
+```
+
+And that's it
+
+### Extended usage
+
+In most cases you would want to exclude the api route's from the VerifyCsrfToken middleware so in 
+add the api prefix to the except array in the middleware
+
+```
+protected $except = [
+    'api/*'
+];
+```
+
+As an alternative you can have a different routes file for your api routes 
+first create the routes file `routes.api.php` next go to `RouteServiceProvider.php` and add the this function 
+
+```
+/**
+ * Define the "api" routes for the application.
+ *
+ * These routes receive the api route group middlewares.
+ *
+ * @param  \Illuminate\Routing\Router  $router
+ * @return void
+ */
+protected function mapApiRoutes(Router $router)
+{
+    $router->group([
+        'namespace' => $this->namespace, 'middleware' => 'api',
+    ], function ($router) {
+        require app_path('Http/routes.api.php');
+    });
+}
+```
+
+And don't forget to call this function in the `RouteServiceProvider.php` `map` function 
+ 
+```
+/**
+ * Define the routes for the application.
+ *
+ * @param  \Illuminate\Routing\Router  $router
+ * @return void
+ */
+public function map(Router $router)
+{
+    $this->mapWebRoutes($router);
+    $this->mapApiRoutes($router);
+}
+```
+
+### For usage with [dingo api] (https://github.com/dingo/api)
+
+In the `config/api.php` add the middle ware to default list of API middleware
+
+```
+/*
+|--------------------------------------------------------------------------
+| API Middleware
+|--------------------------------------------------------------------------
+|
+| Middleware that will be applied globally to all API requests.
+|
+*/
+'middleware' => [
+    MahmoudBirdsol\CORSLaravel\CORSMiddleware::class,
+],
+```
+
+### License
+
+Released under the MIT License, see LICENSE.
+
