@@ -24,18 +24,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="readme.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/readme.md">
-          <provider editor-type-id="MultiMarkdownFxPreviewEditor">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="260">
-                <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
-                <folding />
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name="composer.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/composer.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -204,12 +198,12 @@
       <option name="presentableId" value="Default" />
       <updated>1469468554993</updated>
       <workItem from="1469468556748" duration="2611000" />
-      <workItem from="1469472028547" duration="2339000" />
+      <workItem from="1469472028547" duration="2504000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4950000" />
+    <option name="totallyTimeSpent" value="5115000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -372,21 +366,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-          <folding>
-            <marker date="1469475297000" expanded="true" signature="0:544" placeholder="{&quot;name&quot;: &quot;mahmoud-birdsol/cors-laravel&quot;...}" />
-            <marker date="1469475297000" expanded="true" signature="228:340" placeholder="[...]" />
-            <marker date="1469475297000" expanded="true" signature="238:334" placeholder="{&quot;name&quot;: &quot;Mahmoud El-Mokhtar&quot;...}" />
-            <marker date="1469475297000" expanded="true" signature="357:436" placeholder="{&quot;illuminate/support&quot;: &quot;^5.2&quot;...}" />
-            <marker date="1469475297000" expanded="true" signature="454:542" placeholder="{...}" />
-            <marker date="1469475297000" expanded="true" signature="473:536" placeholder="{&quot;MahmoudBirdsol\CORSLaravel\&quot;: &quot;src/&quot;...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/readme.md">
       <provider editor-type-id="MultiMarkdownFxPreviewEditor">
         <state />
@@ -398,6 +377,14 @@
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
