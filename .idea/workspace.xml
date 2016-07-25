@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="957585f6-5ede-4adb-a21c-82cabab89d9e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.md" afterPath="$PROJECT_DIR$/readme.md" />
     </list>
     <ignored path="cors-laravel.iws" />
@@ -30,8 +31,8 @@
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="589">
-                <caret line="107" column="44" selection-start-line="107" selection-start-column="44" selection-end-line="107" selection-end-column="44" />
+              <first_editor relative-caret-position="26">
+                <caret line="36" column="105" selection-start-line="36" selection-start-column="105" selection-end-line="36" selection-end-column="105" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -129,6 +130,20 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cors-laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cors-laravel" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -189,12 +204,12 @@
       <option name="presentableId" value="Default" />
       <updated>1469468554993</updated>
       <workItem from="1469468556748" duration="2611000" />
-      <workItem from="1469472028547" duration="1329000" />
+      <workItem from="1469472028547" duration="1594000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3940000" />
+    <option name="totallyTimeSpent" value="4205000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -276,24 +291,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/cors.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="3" column="49" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
-          <folding>
-            <marker date="1469471182000" expanded="true" signature="8:213" placeholder="..." />
-            <marker date="1469471182000" expanded="true" signature="224:1790" placeholder="..." />
-            <marker date="1469471182000" expanded="true" signature="231:726" placeholder="..." />
-            <marker date="1469471182000" expanded="true" signature="748:754" placeholder="..." />
-            <marker date="1469471182000" expanded="true" signature="764:1040" placeholder="..." />
-            <marker date="1469471182000" expanded="true" signature="1077:1283" placeholder="..." />
-            <marker date="1469471182000" expanded="true" signature="1304:1408" placeholder="..." />
-            <marker date="1469471182000" expanded="true" signature="1418:1624" placeholder="..." />
-            <marker date="1469471182000" expanded="true" signature="1645:1787" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CORSHelper.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="748">
@@ -365,14 +362,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config/cors.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-318">
+          <caret line="3" column="49" selection-start-line="0" selection-start-column="0" selection-end-line="64" selection-end-column="2" />
+          <folding>
+            <marker date="1469471182000" expanded="true" signature="8:213" placeholder="..." />
+            <marker date="1469471182000" expanded="true" signature="224:1790" placeholder="..." />
+            <marker date="1469471182000" expanded="true" signature="231:726" placeholder="..." />
+            <marker date="1469471182000" expanded="true" signature="748:754" placeholder="..." />
+            <marker date="1469471182000" expanded="true" signature="764:1040" placeholder="..." />
+            <marker date="1469471182000" expanded="true" signature="1077:1283" placeholder="..." />
+            <marker date="1469471182000" expanded="true" signature="1304:1408" placeholder="..." />
+            <marker date="1469471182000" expanded="true" signature="1418:1624" placeholder="..." />
+            <marker date="1469471182000" expanded="true" signature="1645:1787" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/readme.md">
       <provider editor-type-id="MultiMarkdownFxPreviewEditor">
         <state />
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="589">
-            <caret line="107" column="44" selection-start-line="107" selection-start-column="44" selection-end-line="107" selection-end-column="44" />
+          <first_editor relative-caret-position="26">
+            <caret line="36" column="105" selection-start-line="36" selection-start-column="105" selection-end-line="36" selection-end-column="105" />
             <folding />
           </first_editor>
           <second_editor />
