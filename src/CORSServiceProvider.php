@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Providers;
+namespace MahmoudBirdsol\CORSLaravel;
 
 use Illuminate\Support\ServiceProvider;
 use MahmoudBirdsol\CORSLaravel\CORSHelper;
