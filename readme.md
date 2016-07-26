@@ -8,7 +8,7 @@ for api development with laravel. *This package is still in development more opt
 Require the package through composer
 
 ```
-composer require mahmoud-birdsol/cors-laravel
+composer require mahmoud-birdsol/cors-laravel:dev-master
 ```
 
 Add the service provider to the app service providers in `config/app.php`
