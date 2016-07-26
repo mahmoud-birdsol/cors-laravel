@@ -10,7 +10,7 @@
         }
     ],
     "prefer-stable": true,
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "version": "1.0.0",
     "require": {
         "illuminate/support": "^5.2",
