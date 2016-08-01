@@ -44,7 +44,11 @@ class CORSHelper
         }
 
 
-        if(!array_has($_SERVER, 'HTTP_ORIGIN') && config('cors.testing') != 'testing'){
+        if(!array_has($_SERVER, 'HTTP_ORIGIN') &&
+            env('APP_ENV') != 'local' &&
+            config('cors.local') != 'true' &&
+            config('cors.internal') == false){
+
             abort(403);
         }
     }

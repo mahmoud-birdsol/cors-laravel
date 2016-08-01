@@ -46,6 +46,34 @@ Modify the `config/cors.php` file sensible defaults exist for all options except
 |
 */
 return [
+
+    /*
+    |--------------------------------------------------------------------------
+    | Local environment
+    |--------------------------------------------------------------------------
+    |
+    | This options will simple allow for requests without HTTP_ORIGIN to go
+    | through if set to true an will abort with an unauthorized response
+    | if false. Also note if the APP_ENV is not set to local in .env
+    | file this option will be overridden by the .env file option.
+    |
+    */
+
+    'local' => true,
+
+    /*
+    |--------------------------------------------------------------------------
+    | Internal Requests
+    |--------------------------------------------------------------------------
+    |
+    | Internal will simply allow for internal api requests the default is true
+    | but change to false if you'r app is just an api layer. If set true it
+    | will allow for dingo API internal requests other wise se to false.
+    |
+    */
+
+    'internal' => true,
+    
     /*
     |--------------------------------------------------------------------------
     | Allowed Origins
