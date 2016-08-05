@@ -19,6 +19,11 @@ class CORSHelper
      */
     public function handle()
     {
+        if(env('APP_ENV') == 'testing'){
+
+            return;
+        }
+
         $this->origins();
         $this->credentials();
         $this->methods();
