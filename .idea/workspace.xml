@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="957585f6-5ede-4adb-a21c-82cabab89d9e" name="Default" comment="" />
+    <list default="true" id="957585f6-5ede-4adb-a21c-82cabab89d9e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/cors.php" afterPath="$PROJECT_DIR$/config/cors.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CORSHelper.php" afterPath="$PROJECT_DIR$/src/CORSHelper.php" />
+    </list>
     <ignored path="cors-laravel.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -19,6 +22,20 @@
   <component name="FavoritesManager">
     <favorites_list name="cors-laravel" />
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="CORSHelper.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/CORSHelper.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="492">
+              <caret line="86" column="53" selection-start-line="86" selection-start-column="53" selection-end-line="86" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -33,9 +50,9 @@
         <option value="$PROJECT_DIR$/src/CORSMiddleware.php" />
         <option value="$PROJECT_DIR$/src/CORSServiceProvider.php" />
         <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/src/CORSHelper.php" />
-        <option value="$PROJECT_DIR$/config/cors.php" />
         <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/config/cors.php" />
+        <option value="$PROJECT_DIR$/src/CORSHelper.php" />
       </list>
     </option>
   </component>
@@ -138,15 +155,16 @@
       <workItem from="1469468556748" duration="2611000" />
       <workItem from="1469472028547" duration="3155000" />
       <workItem from="1470065998179" duration="878000" />
+      <workItem from="1470675440808" duration="29000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6644000" />
+    <option name="totallyTimeSpent" value="6673000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15703125" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -180,28 +198,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1872">
           <caret line="72" column="34" selection-start-line="72" selection-start-column="34" selection-end-line="72" selection-end-column="34" />
-          <folding>
-            <marker date="1470066851000" expanded="true" signature="62:1977" placeholder="{...}" />
-            <marker date="1470066851000" expanded="true" signature="72:138" placeholder=" Perform the Cors checks. ..." />
-            <marker date="1470066851000" expanded="true" signature="177:228" placeholder="{...}" />
-            <marker date="1470066851000" expanded="true" signature="237:273" placeholder=" Handle a cors request. ..." />
-            <marker date="1470066851000" expanded="true" signature="304:424" placeholder="{...}" />
-            <marker date="1470066851000" expanded="true" signature="433:474" placeholder=" Set access control origins. ..." />
-            <marker date="1470066851000" expanded="true" signature="507:1205" placeholder="{...}" />
-            <marker date="1470066851000" expanded="true" signature="561:977" placeholder="..." />
-            <marker date="1470066851000" expanded="true" signature="619:822" placeholder="..." />
-            <marker date="1470066851000" expanded="true" signature="677:808" placeholder="..." />
-            <marker date="1470066851000" expanded="true" signature="871:967" placeholder="..." />
-            <marker date="1470066851000" expanded="true" signature="1164:1198" placeholder="..." />
-            <marker date="1470066851000" expanded="true" signature="1214:1258" placeholder=" Set access control credentials ..." />
-            <marker date="1470066851000" expanded="true" signature="1295:1390" placeholder="{...}" />
-            <marker date="1470066851000" expanded="true" signature="1399:1439" placeholder=" set access control methods ..." />
-            <marker date="1470066851000" expanded="true" signature="1472:1682" placeholder="{...}" />
-            <marker date="1470066851000" expanded="true" signature="1555:1614" placeholder="..." />
-            <marker date="1470066851000" expanded="true" signature="1691:1732" placeholder=" Set access control headers. ..." />
-            <marker date="1470066851000" expanded="true" signature="1765:1975" placeholder="{...}" />
-            <marker date="1470066851000" expanded="true" signature="1848:1907" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -255,66 +252,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CORSHelper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="49" column="46" selection-start-line="49" selection-start-column="46" selection-end-line="49" selection-end-column="46" />
-          <folding>
-            <marker date="1470066851000" expanded="true" signature="62:1977" placeholder="{...}" />
-            <marker date="1470066851000" expanded="true" signature="72:138" placeholder=" Perform the Cors checks. ..." />
-            <marker date="1470066851000" expanded="true" signature="177:228" placeholder="{...}" />
-            <marker date="1470066851000" expanded="true" signature="237:273" placeholder=" Handle a cors request. ..." />
-            <marker date="1470066851000" expanded="true" signature="304:424" placeholder="{...}" />
-            <marker date="1470066851000" expanded="true" signature="433:474" placeholder=" Set access control origins. ..." />
-            <marker date="1470066851000" expanded="true" signature="507:1205" placeholder="{...}" />
-            <marker date="1470066851000" expanded="true" signature="561:977" placeholder="..." />
-            <marker date="1470066851000" expanded="true" signature="619:822" placeholder="..." />
-            <marker date="1470066851000" expanded="true" signature="677:808" placeholder="..." />
-            <marker date="1470066851000" expanded="true" signature="871:967" placeholder="..." />
-            <marker date="1470066851000" expanded="true" signature="1164:1198" placeholder="..." />
-            <marker date="1470066851000" expanded="true" signature="1214:1258" placeholder=" Set access control credentials ..." />
-            <marker date="1470066851000" expanded="true" signature="1295:1390" placeholder="{...}" />
-            <marker date="1470066851000" expanded="true" signature="1399:1439" placeholder=" set access control methods ..." />
-            <marker date="1470066851000" expanded="true" signature="1472:1682" placeholder="{...}" />
-            <marker date="1470066851000" expanded="true" signature="1555:1614" placeholder="..." />
-            <marker date="1470066851000" expanded="true" signature="1691:1732" placeholder=" Set access control headers. ..." />
-            <marker date="1470066851000" expanded="true" signature="1765:1975" placeholder="{...}" />
-            <marker date="1470066851000" expanded="true" signature="1848:1907" placeholder="..." />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="225">
+            <caret line="57" column="49" selection-start-line="57" selection-start-column="49" selection-end-line="57" selection-end-column="49" />
+          </first_editor>
+          <second_editor />
         </state>
+      </provider>
+      <provider editor-type-id="MultiMarkdownFxPreviewEditor">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/cors.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
-          <caret line="19" column="6" selection-start-line="9" selection-start-column="4" selection-end-line="19" selection-end-column="6" />
+          <caret line="63" column="28" selection-start-line="63" selection-start-column="28" selection-end-line="63" selection-end-column="28" />
           <folding>
-            <marker date="1470066926000" expanded="true" signature="8:213" placeholder="..." />
-            <marker date="1470066926000" expanded="true" signature="224:2813" placeholder="..." />
-            <marker date="1470066926000" expanded="true" signature="232:718" placeholder="..." />
-            <marker date="1470066926000" expanded="true" signature="750:1179" placeholder="..." />
-            <marker date="1470066926000" expanded="true" signature="1214:1709" placeholder="..." />
-            <marker date="1470066926000" expanded="true" signature="1731:1777" placeholder="..." />
-            <marker date="1470066926000" expanded="true" signature="1787:2063" placeholder="..." />
-            <marker date="1470066926000" expanded="true" signature="2100:2306" placeholder="..." />
-            <marker date="1470066926000" expanded="true" signature="2327:2431" placeholder="..." />
-            <marker date="1470066926000" expanded="true" signature="2441:2647" placeholder="..." />
-            <marker date="1470066926000" expanded="true" signature="2668:2810" placeholder="..." />
+            <marker date="1470675456000" expanded="true" signature="8:213" placeholder="..." />
+            <marker date="1470675456000" expanded="true" signature="224:2815" placeholder="..." />
+            <marker date="1470675456000" expanded="true" signature="232:718" placeholder="..." />
+            <marker date="1470675456000" expanded="true" signature="750:1179" placeholder="..." />
+            <marker date="1470675456000" expanded="true" signature="1214:1709" placeholder="..." />
+            <marker date="1470675456000" expanded="true" signature="1731:1777" placeholder="..." />
+            <marker date="1470675456000" expanded="true" signature="1787:2063" placeholder="..." />
+            <marker date="1470675456000" expanded="true" signature="2102:2308" placeholder="..." />
+            <marker date="1470675456000" expanded="true" signature="2329:2433" placeholder="..." />
+            <marker date="1470675456000" expanded="true" signature="2443:2649" placeholder="..." />
+            <marker date="1470675456000" expanded="true" signature="2670:2812" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider editor-type-id="MultiMarkdownFxPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="225">
-            <caret line="57" column="49" selection-start-line="57" selection-start-column="49" selection-end-line="57" selection-end-column="49" />
-            <folding />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/src/CORSHelper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="86" column="53" selection-start-line="86" selection-start-column="53" selection-end-line="86" selection-end-column="53" />
+          <folding />
         </state>
       </provider>
     </entry>

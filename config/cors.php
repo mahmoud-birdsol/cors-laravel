@@ -61,7 +61,7 @@ return [
     | The credentials variable can be either true or false.
     |
     */
-    'credentials' => true,
+    'credentials' => 'true',
 
     /*
     |--------------------------------------------------------------------------

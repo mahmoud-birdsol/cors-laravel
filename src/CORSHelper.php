@@ -43,7 +43,7 @@ class CORSHelper
                 }
             }
 
-            if(config('cors.origins') == '*'){
+            if(config('cors.origins') == ['*']){
                 header('Access-Control-Allow-Origin: ' . $_SERVER['HTTP_ORIGIN']);
             }
         }
